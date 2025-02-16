@@ -6,14 +6,11 @@ export default function Home() {
         <h1 className="text-xl text-center">
             RNG Simulator Tycoon GO!
         </h1>
-        <div>
-        
-        </div>
-        <div className="flex items-center border-4 border-white content-around gap-1 text-7xl">
-            <div className="text-red-500">S</div>
-            <div className="text-yellow-500">P</div>
-            <div className="text-green-500">I</div>
-            <div className="text-cyan-500">N</div>
+        <div className="left-50% w-fit flex grid-flow-col grid-rows-3 border-4 border-white text-7xl">
+            <div className="flex-1 text-red-500">S</div>
+            <div className="flex-1 text-yellow-500">P</div>
+            <div className="flex-1 text-green-500">I</div>
+            <div className="flex-1 text-cyan-500">N</div>
         </div>
     </div>
   );
